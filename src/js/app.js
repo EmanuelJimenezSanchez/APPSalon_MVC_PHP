@@ -3,8 +3,8 @@ let pasoInicial = 1;
 let pasoFinal = 3;
 
 const cita = {
-  id: '',
-  nombre: '',
+  // id: '',
+  // nombre: '',
   fecha: '',
   hora: '',
   servicios:[]
@@ -23,8 +23,8 @@ function iniciarApp() {
 
   consultarAPI(); // Consulta la API en el backend de PHP
 
-  idCliente();
-  nombreCliente(); // Añade el nombre del cliente al objeto de cita
+  // idCliente();
+  // nombreCliente(); // Añade el nombre del cliente al objeto de cita
   seleccionarFecha(); // Añade la fecha de la cita en el objeto
   seleccionarHora(); // Añade la hora de la cita en el objeto
 
@@ -312,7 +312,7 @@ async function reservarCita() {
   const datos = new FormData();
   datos.append('fecha', fecha);
   datos.append('hora', hora);
-  datos.append('usuarioId', id);
+  // datos.append('usuarioId', id);
   datos.append('servicios', idServicios);
   
   // console.log([...datos]);

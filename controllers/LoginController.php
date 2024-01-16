@@ -10,6 +10,7 @@ class LoginController
 {
   public static function login(Router $router)
   {
+    header('Location: /cita');
     $alertas = [];
     $auth = new Usuario;
 

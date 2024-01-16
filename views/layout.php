@@ -20,6 +20,13 @@
     </div>
   </div>
 
+
+  <!-- 
+  <footer class="footer p-5 mt-4 d-flex justify-content-center justify-content-md-start">
+    <img class="" src="/src/img/image 5.png" alt="Logo del gobierno de México" loading="lazy">
+  </footer> -->
+
+  <!-- <script src=""></script> -->
   <?php
   echo $script ?? '';
   ?>
